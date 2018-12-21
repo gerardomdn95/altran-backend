@@ -1,0 +1,21 @@
+{
+  "name": "axa-server",
+  "version": "1.0.0",
+  "description": "Altran backend assessment",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node ./server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Medina Romero",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
